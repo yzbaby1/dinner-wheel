@@ -1,0 +1,65 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #wheel-container {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  canvas {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #pointer {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: red;
+  }
+  
+  button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    padding: 8px 16px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  input {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    padding: 6px;
+    width: 200px;
+  }
+  
+  #itemList {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  #itemList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .remove-btn {
+    font-size: 10px;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
